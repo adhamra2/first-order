@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Your Page Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Rectangular with title and description */
+        .rectangular-1 {
+            width: 100%;
+            height: 461px;
+            background: #13E8F163 0% 0% no-repeat padding-box;
+            opacity: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Title style */
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        /* Description style */
+        .description {
+            font-size: 24px;
+            color: #fff;
+        }
+
+        /* Rectangular with shadow */
+        .rectangular-2 {
+            width: 100%;
+            height: 130px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .icon-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 30px;
+        }
+
+        .icon-container h3 {
+            margin: 5px 0;
+            color: black;
+        }
+
+        .icon-container i {
+            font-size: 5rem;
+            color: black;
+        }
+
+        .rectangular-2 img {
+            height: 130px;
+            width: 100%;   
+        }
+
+        /* Image container */
+        .image-container {
+            width: 100%;
+            height: 1014px;
+            background: #EBFEFF 0% 0% no-repeat padding-box;
+            opacity: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Image style */
+        .image {
+            width: 1189px;
+            height: 718px;
+            background: transparent url(images/project4.jpeg) 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 40px #00000066;
+        }
+
+        @media (max-width: 768px) {
+            .image {
+            width: 295px;
+            height: 178px;
+            background-size: cover;
+            }
+            .image-container {
+            height: 332px;
+            }
+}
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="logo">Fadi</a>
+
+        <div class="bx bx menu" id="menu-icon"><i class='bx bx-menu'></i></i></div>
+
+     
+      <nav class="navbar">
+        <a href="index.html ">Home</a>
+        <a href="index.html #about">About</a>
+        <a href="index.html #portfolio">Projects</a>
+        <a href="index.html #contact">Contact</a>
+
+    </nav>
+</header>
+
+    <!-- Rectangular with title and description -->
+    <div class="rectangular-1">
+        <div class="title">Project 4</div>
+        <div class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In ab facilis odio obcaecati, alias qui.</div>
+    </div>
+
+    <!-- Rectangular with shadow -->
+    <div class="rectangular-2">
+        <div class="icon-container">
+            <h3>HTML</h3>
+            <i class='bx bxl-html5'></i>
+        </div>
+        <div class="icon-container">
+            <h3>CSS</h3>
+            <i class='bx bxl-css3' ></i>
+        </div>
+        <div class="icon-container">
+            <h3>JS</h3>
+            <i class='bx bxl-javascript' ></i>
+        </div>
+    </div>
+
+    <!-- Image container -->
+    <div class="image-container">
+        <div class="image"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
